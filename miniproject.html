@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Snippet Organizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Code Snippet Organizer</h1>
+  </header>
+
+  <main>
+    <section id="snippet-input">
+      <textarea id="code-snippet" placeholder="Enter your code snippet here..."></textarea>
+      <select id="language">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+      </select>
+      <button id="add-snippet">Add Snippet</button>
+    </section>
+
+    <section id="snippet-display">
+      <h2>Saved Snippets</h2>
+      <div id="snippets-container">
+        <!-- Snippets will be dynamically added here -->
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
